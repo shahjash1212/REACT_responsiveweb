@@ -7,9 +7,12 @@ import './Button.css'
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/video-2.mp4' autoPlay loop muted></video>
+      <video src='/Blue.mp4' autoPlay loop muted></video>
       <h1>Welcome</h1>
-      <p>This Is My First Website</p>
+      <p>
+        This Is My First Website On <br />
+        <center>React</center>
+      </p>
       <div className='hero-btns'>
         <Button
           className='btns'
